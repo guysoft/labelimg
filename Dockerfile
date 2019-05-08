@@ -13,7 +13,7 @@ RUN pip3 install setuptools
 
 RUN git clone https://github.com/tzutalin/labelImg
 WORKDIR /labelImg
-RUN git checkout v1.8.1
+RUN git checkout v1.8.0
 
 RUN pip3 install resources requests staty
 
